@@ -1,0 +1,95 @@
+.rectangleCouleur:nth-child(1){
+  background-color: #BFD9D9;
+  width: 769px;
+  height: 720px;
+  position: absolute;
+  right: 0%;
+  top:0%;
+}
+
+.Loupe{
+  position: absolute;
+  top:1.73%;
+  right: 3.18%;
+}
+
+.rectangleCouleur:nth-child(2){
+  background-color: #E1E7E8;
+  width: 1121px;
+  height: 810px;
+  position: absolute;
+  right: 16.67%;
+  top: 6.39%;
+}
+
+.Logo_Play{
+  background-color: white;
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  bottom: 0%;
+  left: 0%;
+}
+
+h1{
+  position: absolute;
+  left:-4.2%;
+  top:12.80%;
+}
+#YoungModel{
+  position: absolute;
+  left:-4.2%;
+  top:18.92%;
+}
+
+
+.bandeBlanche{
+  height: 7px;
+  width: 56px;
+  position: absolute;
+  background-color: white;
+  left: 34.01%;
+  top:16.77%;
+}
+
+.Logo_MiTalent{
+  position: absolute;
+  width: 225px;
+  height: 32px;
+  right: 44.22%;
+}
+
+.LogoFacebook{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3.38%;
+  top:6.64%;
+}
+
+.LogoInstagramme{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3.38%;
+  top: 7.96%;
+  padding-top: 17px;
+}
+
+.LogoYoutube{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3.38%;
+  top:9.26%;
+  padding-top: 34px;
+}
+
+.LogoTwitter{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3.38%;
+  top:10.49%;
+  padding-top: 51px;
+}
