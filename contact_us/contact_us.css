@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/nunito-v8-latin-200.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/nunito-v8-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v8-latin-200.woff2") format("woff2"), url("../fonts/nunito-v8-latin-200.woff") format("woff"), url("../fonts/nunito-v8-latin-200.ttf") format("truetype"), url("../fonts/nunito-v8-latin-200.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200; }
+
+  @font-face {
+    font-family: 'Poppins';
+    src:url('Poppins.ttf.woff') format('woff'),
+        url('Poppins.ttf.svg#Poppins') format('svg'),
+        url('Poppins.ttf.eot'),
+        url('Poppins.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p
+{
+  font-family: 'Poppins' ;
+}
+
+h1
+{
+  font-family: 'Poppins' ;
+  color: white ;
+}
+
+body
+{
+  background: top left white url(images_contact_us/single1.jpg) no-repeat ;
+}
