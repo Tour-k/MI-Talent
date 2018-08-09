@@ -37,7 +37,8 @@ header{
 }
 
 .rectangleCouleurTitre{
-  background-color: #E1E7E8;
+  /*background-color: #E1E7E8;*/
+  background: url("Images_HomePage/Georgina.jpg");
   width: 1121px;
   height: 810px;
   position: absolute;
@@ -59,7 +60,7 @@ header{
   top:30%;
   width: 477px;
   height: 277px;
-  left: -5.7%
+  left: -7.2%
 }
 
 h1{
