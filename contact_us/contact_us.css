@@ -17,6 +17,12 @@
     font-style: normal;
 }
 
+.p {
+  font-family: 'Nunito' ;
+  color: rgb(119, 119, 126) ;
+  font-size: 1em ;
+}
+
 
 h1 {
   font-family: 'Poppins' ;
@@ -38,12 +44,6 @@ h1 {
   font-size: 1.5em ;
 }
 
-.paragraphe2 {
-  font-family: 'Nunito' ;
-  color: rgb(119, 119, 126) ;
-  font-size: 1em ;
-}
-
 .BandeBlanche {
   height: 7px;
   width: 56px;
@@ -55,16 +55,33 @@ h1 {
   flex-wrap: wrap;
   justify-content:space-between;
 }
+.element1 {
+  background-color: lime;
+}
+
 
 .element2 {
-  margin :auto;
+  background-color: grey;
+  margin: auto;
 }
+
+table {
+  border-collapse: collapse ;
+}
+td {
+  border : 1px solid black;
+  vertical-align: top ;
+  padding-right: 20px ;
+}
+
 
 .element3 {
   background-color: #BFD9D9 ;
   width: 12.5%;
   height: 500px;
 }
+
+
 
 /* Menu de Navigation */
 ul {
@@ -94,14 +111,12 @@ li a:hover {
 }
 
 .Logo_MiTalent {
-  position: absolute;
-  width: 225px;
-  height: 32px;
-  right: 44.22%;
+  position: absolute ;
+  right: 44.2%;
 }
 
 .Logo_loupe {
   position: absolute;
-  right: 3%;
+  right : 3% ;
   padding: 67px 30px;
 }
