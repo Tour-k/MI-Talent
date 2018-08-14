@@ -28,42 +28,9 @@
     z-index: 3;
   }
 
-
-  h1 {
-    font-family: 'Poppins' ;
-    color: blue ;
-    font-weight: normal;
-    position: absolute;
-    top: 5%;
-    left:5%;
-    font-size: 6.25em;
-    line-height: 1em;
-  }
-
-  .MassImpressions {
-    font-family: 'Nunito' ;
-    position: absolute;
-    top: 50%;
-    left:5%;
-    color: blue ;
-    font-size: 1.063em ;
-  }
-
-  .paragraphe1 {
-    font-family: 'Poppins' ;
-    color: black ;
-    font-size: 1.5em ;
-  }
-
-  .BandeBlanche {
-    height: 7px;
-    width: 56px;
-    background-color: blue;
-  }
-
-
+/* Partie de gauche */
   .element1 {
-    background-color: lime;
+    background-color: black;
     display: inline-block;
     position: absolute;
     z-index: -1;
@@ -73,9 +40,40 @@
     height: 80.97%;
   }
 
+  h1 {
+    font-family: 'Poppins' ;
+    color: white ;
+    font-weight: normal;
+    position: absolute;
+    top: 20%;
+    right:15%;
+    font-size: 75pt;
+    line-height: 1em;
+  }
+
+  .MassImpressions {
+    font-family: 'Nunito' ;
+    position: absolute;
+    top: 55%;
+    left:32%;
+    color: white ;
+    font-size: 17pt ;
+  }
+
+
+
+  .BandeBlanche {
+    height: 7px;
+    width: 68px;
+    background-color: white ;
+    position: absolute;
+    top: 47%;
+    right:38%;
+  }
+
+/* Partie centrale */
 
   .element2 {
-    background-color: grey;
     display: inline-block;
     position: absolute;
     z-index: -1;
@@ -85,8 +83,20 @@
     height: 80.97%;
   }
 
+  .paragraphe1 {
+    font-family: 'Poppins' ;
+    color: black ;
+    font-size: 1.5em ;
+    position: absolute;
+    margin-top:27%;
+    margin-left: 15%;
+  }
+
   table {
     border-collapse: collapse ;
+    position: absolute;
+    margin-top:57%;
+    margin-left: 15%;
   }
   td {
     border : 1px solid black;
@@ -94,6 +104,7 @@
     padding-right: 20px ;
   }
 
+/* Partie Gauche */
 
   .element3 {
     background-color: #BFD9D9 ;
@@ -128,7 +139,7 @@
 
   li a {
       display: block;
-      color: red;
+      color: white;
       text-align: bottom;
       padding: 67px 30px;
       text-decoration: none;
