@@ -17,12 +17,11 @@
     font-style: normal;
     }
 
-@media screen and (min-width:1400px) {
 
     .rectangleCouleurLoupe{
       background-color: #BFD9D9;
       width: 50%;
-      height: 720px;
+      height: 500px;
       position: absolute;
       right: 0%;
       top:0%;
@@ -34,11 +33,14 @@
       right: 3.18%;
     }
 
+/*__________GRANDE TAILLE D'ECRAN__________*/
+@media screen and (min-width:1400px) {
+
     .rectangleCouleurTitre{
       /*background-color: #E1E7E8;*/
       background: url("Images_HomePage/Georgina.jpg");
       width: 1121px;
-      height: 810px;
+      height: 700px;
       position: absolute;
       left:300px;
       top:10%;
@@ -131,4 +133,16 @@
     left: -256px;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width:800px) and (max-width:1400px) {
+    .rectangleCouleurTitre{
+      /*background-color: #E1E7E8;*/
+      background: url("Images_HomePage/Georgina_2tiers.png");
+      width: 1121px;
+      height: 700px;
+      position: absolute;
+      left:300px;
+      top:10%;
+    }
 }
