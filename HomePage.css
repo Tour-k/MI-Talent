@@ -33,7 +33,15 @@
       right: 3.18%;
     }
 
-/*__________GRANDE TAILLE D'ECRAN__________*/
+    .Logo_MiTalent{
+      position: absolute;
+      width: 225px;
+      height: 32px;
+      right: 44.22%;
+      top:2%;
+    }
+
+/*_______________GRANDE TAILLE D'ECRAN_______________*/
 @media screen and (min-width:1400px) {
 
     .rectangleCouleurTitre{
@@ -119,30 +127,223 @@
 
     }
 
-    .Logo_MiTalent{
-      position: absolute;
-      width: 225px;
-      height: 32px;
-      right: 44.22%;
-    }
 
-.Logos_Reseaux{
-    position: absolute;
-    justify-content: space-between;
-    height: 20%;
-    left: -256px;
-    display: flex;
-    flex-direction: column;
+
+    .Logos_Reseaux{
+        position: absolute;
+        justify-content: space-between;
+        height: 30%;
+        left: -256px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media screen and (min-width:800px) and (max-width:1400px) {
+/*_______________TAILLE MOYENNE + D'ECRAN_______________*/
+@media all and (min-width: 960px) and (max-width: 1400px) {
     .rectangleCouleurTitre{
       /*background-color: #E1E7E8;*/
       background: url("Images_HomePage/Georgina_2tiers.png");
-      width: 1121px;
-      height: 700px;
+      width: 750px;
+      height: 541px;
       position: absolute;
-      left:300px;
+      left:214px;
       top:10%;
+
+    }
+
+    .Logo_Play{
+      background-color: white;
+      position: absolute;
+      height: 73px;
+      width: 73px;
+      bottom: 0%;
+      left: 0%;
+    }
+    .Titre{
+      /*background-color: blue;*/
+      position: absolute;
+      top:30%;
+      width: 477px;
+      height: 277px;
+      left: -7.2%
+    }
+
+    h1{
+      font-family: 'Poppins' ;
+      font-weight: normal;
+      font-size: 67px;
+      line-height: 1em;
+      position: absolute;
+
+      top:0%;
+      margin: 0px;
+      letter-spacing: 5px;
+    }
+
+    #YoungModel{
+      font-family: 'Poppins' ;
+      margin: 0px;
+      font-size: 1.2em;
+      position: absolute;
+      top:70%;
+    }
+
+
+    .bandeBlanche{
+      height: 4.5px;
+      width: 37px;
+      position: absolute;
+      background-color: white;
+      left:64%;
+      top:41%;
+    }
+
+    .bandeNoire{
+      height: 45px;
+      width: 2px;
+      background-color: black;
+      position: absolute;
+      left: -170px;
+      top:60.65%;
+    }
+
+    .viewProfile_Button{
+      width: 170px;
+      height: 73px;
+      position: absolute;
+      bottom: 0%;
+      left: -170px;
+      background-color: #BFD9D9;
+    }
+
+    #viewProfil_Text{
+      text-align: center;
+      font-family: 'Poppins';
+      color: white;
+      margin-top: 23px;
+
+    }
+
+
+
+    .Logos_Reseaux{
+        position: absolute;
+        justify-content: space-between;
+        height: 30%;
+        left: -170px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+/*_______________TAILLE MOYENNE MOINS D'ECRAN_______________*/
+@media all and (min-width:660px) and (max-width:960px) {
+    .rectangleCouleurLoupe{
+      background-color: #BFD9D9;
+      width: 50%;
+      height: 300px;
+      position: absolute;
+      right: 0%;
+      top:0%;
+    }
+
+    .rectangleCouleurTitre{
+      /*background-color: #E1E7E8;*/
+      background: url("Images_HomePage/Georgina_demi.jpg");
+      width: 560px;
+      height: 404px;
+      position: absolute;
+      left:129px;
+      top:10%;
+
+    }
+
+
+    .Logo_Play{
+      background-color: white;
+      position: absolute;
+      height: 36px;
+      width: 36px;
+      bottom: 0%;
+      left: 0%;
+    }
+    .Titre{
+      /*background-color: blue;*/
+      position: absolute;
+      top:30%;
+      width: 477px;
+      height: 277px;
+      left: -7.2%
+    }
+
+    h1{
+      font-family: 'Poppins' ;
+      font-weight: normal;
+      font-size: 50px;
+      line-height: 1em;
+      position: absolute;
+
+      top:0%;
+      margin: 0px;
+      letter-spacing: 5px;
+    }
+
+    #YoungModel{
+      font-family: 'Poppins' ;
+      margin: 0px;
+      font-size: 1em;
+      position: absolute;
+      top:50%;
+    }
+
+
+    .bandeBlanche{
+      height: 3px;
+      width: 28px;
+      position: absolute;
+      background-color: white;
+      left:49%;
+      top:32%;
+    }
+
+    .bandeNoire{
+      height: 45px;
+      width: 1px;
+      background-color: black;
+      position: absolute;
+      left: -85px;
+      top:60.65%;
+    }
+
+    .viewProfile_Button{
+      width: 85px;
+      height: 36px;
+      position: absolute;
+      bottom: 0%;
+      left: -85px;
+      background-color: #BFD9D9;
+    }
+
+    #viewProfil_Text{
+      text-align: center;
+      font-family: 'Poppins';
+      color: white;
+      margin-top: 10px;
+      font-size: 10px;
+
+    }
+
+
+
+    .Logos_Reseaux{
+        position: absolute;
+        justify-content: space-between;
+        height: 30%;
+        left: -85px;
+        display: flex;
+        flex-direction: column;
+
     }
 }
