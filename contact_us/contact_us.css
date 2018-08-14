@@ -17,106 +17,160 @@
     font-style: normal;
 }
 
-.p {
-  font-family: 'Nunito' ;
-  color: rgb(119, 119, 126) ;
-  font-size: 1em ;
-}
-
-
-h1 {
-  font-family: 'Poppins' ;
-  color: blue ;
-  font-weight: normal;
-  font-size: 6.25em;
-  line-height: 1em;
-}
-
-.MassImpressions {
-  font-family: 'Nunito' ;
-  color: blue ;
-  font-size: 1.063em ;
-}
-
-.paragraphe1 {
-  font-family: 'Poppins' ;
-  color: black ;
-  font-size: 1.5em ;
-}
-
-.BandeBlanche {
-  height: 7px;
-  width: 56px;
-  background-color: blue;
-}
-
-#conteneur1 {
-  display:flex ;
-  flex-wrap: wrap;
-  justify-content:space-between;
-}
-.element1 {
-  background-color: lime;
-}
-
-
-.element2 {
-  background-color: grey;
-  margin: auto;
-}
-
-table {
-  border-collapse: collapse ;
-}
-td {
-  border : 1px solid black;
-  vertical-align: top ;
-  padding-right: 20px ;
-}
-
-
-.element3 {
-  background-color: #BFD9D9 ;
-  width: 12.5%;
-  height: 500px;
-}
 
 
 
-/* Menu de Navigation */
-ul {
+/* >1024px -> desktops très larges */
+@media screen and (min-width: 1024px) {
+
+
+  header{
+    z-index: 3;
+  }
+
+
+  h1 {
+    font-family: 'Poppins' ;
+    color: blue ;
+    font-weight: normal;
+    position: absolute;
+    top: 5%;
+    left:5%;
+    font-size: 6.25em;
+    line-height: 1em;
+  }
+
+  .MassImpressions {
     font-family: 'Nunito' ;
-    font-size: 0.875em ;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: blue ;
-}
+    position: absolute;
+    top: 50%;
+    left:5%;
+    color: blue ;
+    font-size: 1.063em ;
+  }
 
-li {
-    float: left;
-}
+  .paragraphe1 {
+    font-family: 'Poppins' ;
+    color: black ;
+    font-size: 1.5em ;
+  }
 
-li a {
-    display: block;
-    color: red;
-    text-align: bottom;
+  .BandeBlanche {
+    height: 7px;
+    width: 56px;
+    background-color: blue;
+  }
+
+
+  .element1 {
+    background-color: lime;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    top:0%;
+    left: 0%;
+    width:40.05%;
+    height: 80.97%;
+  }
+
+
+  .element2 {
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    top:0%;
+    left: 40.05%;
+    width: 47.45% ;
+    height: 80.97%;
+  }
+
+  table {
+    border-collapse: collapse ;
+  }
+  td {
+    border : 1px solid black;
+    vertical-align: top ;
+    padding-right: 20px ;
+  }
+
+
+  .element3 {
+    background-color: #BFD9D9 ;
+    display: inline-block;
+    position: absolute;
+    top: 22.54%;
+    right: 0%;
+    z-index: -1;
+    width: 12.5%;
+    height: 37.64%;
+  }
+
+
+
+  /* Menu de Navigation */
+  .nav {
+      position: absolute;
+  }
+
+  ul {
+      font-family: 'Nunito' ;
+      font-size: 0.875em ;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: red;
+      text-align: bottom;
+      padding: 67px 30px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      text-decoration-line: white ;
+  }
+
+  .Logo_MiTalent {
+    position: absolute ;
+    right: 44.2%;
+  }
+
+  .Logo_loupe {
+    position: absolute;
+    right : 3% ;
     padding: 67px 30px;
-    text-decoration: none;
+  }
 }
 
-li a:hover {
-    text-decoration-line: white ;
+/* >768px AND <1024px -> tablettes + iPads paysage + grandes tablettes */
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
 }
 
-.Logo_MiTalent {
-  position: absolute ;
-  right: 44.2%;
+/* >768px -> grandes tablettes + desktop */
+@media screen and (min-width: 768px) {
+
 }
 
-.Logo_loupe {
-  position: absolute;
-  right : 3% ;
-  padding: 67px 30px;
+/* <768px -> smart-phones les plus modernes + iPads portrait */
+@media screen and (max-width: 768px) {
+
+}
+
+/* <480px -> smart-phones premières générations */
+@media screen and (max-width: 480px) {
+
+}
+
+/* <320px -> basses résolutions */
+@media screen and (max-width: 320px) {
+
 }

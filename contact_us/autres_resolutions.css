@@ -1,0 +1,128 @@
+/*TEST 1*/
+
+
+/* Sur les ecrans quand la largeur de la fenêtre fait au max 1024x
+(ex:iPad 9.7p)*/
+
+/* Sur les ecrans quand la largeur de la fenêtre fait au max 1920x
+(ex:grand écran 1920px)*/
+@media screen and (max-width: 1920px){
+
+h1 {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: normal;
+  font-size: 10.25em;
+  line-height: 1em;
+}
+
+}
+
+/* Sur les ecrans quand la largeur de la fenêtre fait au max 414px
+(ex:Iphone SE 320x568 ; Iphone 8 375x667 ; Iphone 8+ 414x736 ; iPadPro 10.5p 320x834)*/
+@media screen and (max-width: 414px){
+
+h1 {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: normal;
+  font-size: 4.25em;
+  line-height: 1em;
+}
+
+.element3 {
+  display: none;
+}
+
+.paragraphe1_VersionPetitEcran {
+  font-family: 'Poppins' ;
+  color: black ;
+  font-size: 1em ;
+}
+
+.W {
+  display: none;
+}
+
+}
+/* TEST 2 */
+
+
+/* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+
+  .element3 {
+    display: none;
+  }
+
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  h1 {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: normal;
+    font-size: 4.25em;
+    line-height: 1em;
+  }
+
+  .element3 {
+    display: none;
+  }
+
+  .paragraphe1_VersionPetitEcran {
+    font-family: 'Poppins' ;
+    color: black ;
+    font-size: 1em ;
+  }
+
+  .W {
+    font-family: 'Poppins' ;
+    color: black ;
+    font-size: 14pt ;
+  }
+}
+
+
+
+
+/*TEST 3*/
+
+/* >1024px -> desktops très larges */
+@media screen and (min-width: 1024px) {
+
+
+
+}
+
+/* >768px AND <1024px -> tablettes + iPads paysage + grandes tablettes */
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+}
+
+/* >768px -> grandes tablettes + desktop */
+@media screen and (min-width: 768px) {
+
+}
+
+/* <768px -> smart-phones les plus modernes + iPads portrait */
+@media screen and (max-width: 768px) {
+
+}
+
+/* <480px -> smart-phones premières générations */
+@media screen and (max-width: 480px) {
+
+}
+
+/* <320px -> basses résolutions */
+@media screen and (max-width: 320px) {
+
+}
