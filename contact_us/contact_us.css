@@ -57,7 +57,7 @@
     top: 55%;
     left:32%;
     color: white ;
-    font-size: 17pt ;
+    font-size: 15pt ;
   }
 
 
@@ -83,26 +83,31 @@
     height: 80.97%;
   }
 
+  #conteneurCentral {
+    display: flex;
+    margin-top: 26%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
   .paragraphe1 {
     font-family: 'Poppins' ;
     color: black ;
     font-size: 1.5em ;
-    position: absolute;
-    margin-top:27%;
-    margin-left: 15%;
   }
-
-  table {
-    border-collapse: collapse ;
-    position: absolute;
-    margin-top:57%;
-    margin-left: 15%;
+  .paragraphe2 {
+    font-family: 'Nunito' ;
+    line-height: 27px;
+    color: rgb(119,119,126) ;
+    font-size: 0.8em ;
   }
-  td {
-    border : 1px solid black;
-    vertical-align: top ;
-    padding-right: 20px ;
-  }
+.img_flottantes {
+  float: left;
+  margin-top: 7px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
 
 /* Partie Gauche */
 
