@@ -41,6 +41,15 @@
       top:2%;
     }
 
+.conteneurs_Talents{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 44px;
+    top:1080px;
+}
+
+
 /*_______________GRANDE TAILLE D'ECRAN_______________*/
 @media screen and (min-width:1400px) {
 
