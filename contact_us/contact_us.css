@@ -46,7 +46,7 @@
     font-weight: normal;
     position: absolute;
     top: 20%;
-    right:15%;
+    right: 120px;
     font-size: 75pt;
     line-height: 1em;
   }
@@ -55,7 +55,7 @@
     font-family: 'Nunito' ;
     position: absolute;
     top: 55%;
-    left:32%;
+    right:320px;
     color: white ;
     font-size: 15pt ;
   }
@@ -86,15 +86,16 @@
   #conteneurCentral {
     display: flex;
     margin-top: 26%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
   }
 
   .paragraphe1 {
     font-family: 'Poppins' ;
     color: rgb(26, 26, 29) ;
     font-size: 1.5em ;
+    margin-bottom: 11%;
   }
 
   .W {
@@ -109,6 +110,8 @@
     line-height: 27px;
     color: rgb(119,119,126) ;
     font-size: 0.8em ;
+    margin-right: 61.7px;
+    margin-bottom: 10%;
   }
 
 .img_flottantes {
