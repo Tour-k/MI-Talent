@@ -93,15 +93,24 @@
 
   .paragraphe1 {
     font-family: 'Poppins' ;
-    color: black ;
+    color: rgb(26, 26, 29) ;
     font-size: 1.5em ;
   }
-  .paragraphe2 {
+
+  .W {
+    font-size: 3em ;
+    float: left;
+    margin-right: 30px;
+    margin-top: -13px;
+}
+
+  .paragraphes2 {
     font-family: 'Nunito' ;
     line-height: 27px;
     color: rgb(119,119,126) ;
     font-size: 0.8em ;
   }
+
 .img_flottantes {
   float: left;
   margin-top: 7px;
