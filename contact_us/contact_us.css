@@ -30,8 +30,7 @@
 
 /* Partie de gauche */
   .element1 {
-    background-color: black;
-    display: inline-block;
+    background-image: url("images_contact_us/single1.jpg");
     position: absolute;
     z-index: -1;
     top:0%;
@@ -40,22 +39,25 @@
     height: 80.97%;
   }
 
+  #conteneurGauche{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+
   h1 {
     font-family: 'Poppins' ;
     color: white ;
     font-weight: normal;
-    position: absolute;
-    top: 20%;
-    right: 120px;
     font-size: 75pt;
     line-height: 1em;
+    margin-bottom: 10px;
+    margin-top: 0%;
   }
 
   .MassImpressions {
     font-family: 'Nunito' ;
-    position: absolute;
-    top: 55%;
-    right:320px;
     color: white ;
     font-size: 15pt ;
   }
@@ -66,9 +68,35 @@
     height: 7px;
     width: 68px;
     background-color: white ;
-    position: absolute;
-    top: 47%;
-    right:38%;
+
+  }
+
+  /* Bouton Plan */
+  #Bouton {
+    display: flex;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+  .carre_bleu{
+    height: 110px;
+    width: 419px;
+    background-color: #BFD9D9 ;
+
+  }
+  .GetDirections {
+    font-family: 'Nunito' ;
+    text-align: center;
+    color: white ;
+    font-size: 15pt ;
+
+  }
+
+  .carre_blanc{
+    height: 110px;
+    width: 110px;
+    background-color: white ;
+
   }
 
 /* Partie centrale */
@@ -103,6 +131,7 @@
     float: left;
     margin-right: 30px;
     margin-top: -13px;
+    margin-bottom: -50px;
 }
 
   .paragraphes2 {
