@@ -1,3 +1,4 @@
+/* Polices d'écriture______________________________________________*/
 @font-face {
   font-family: "Nunito";
   src: url("../fonts/nunito-v8-latin-200.eot");
@@ -20,214 +21,244 @@
 
 
 
-/* >1024px -> desktops très larges */
-@media screen and (min-width: 1024px) {
 
+#ConteneurPrincipal {
+   display: flex;
+   flex-wrap: wrap;
+}
 
-  header{
-    z-index: 3;
-  }
-
-/* Partie de gauche */
-  .element1 {
-    background-image: url("images_contact_us/single1.jpg");
-    position: absolute;
-    z-index: -1;
-    top:0%;
-    left: 0%;
+.ConteneurGauche {
     width:40.05%;
     height: 80.97%;
-  }
+    background-image: url("images_contact_us/single1.jpg");
+}
 
-  #conteneurGauche{
+.ConteneurCentral {
+    width:47.45%;
+    height: 80.97%;
+}
+
+.ConteneurDroit {
+    width:12.50%;
+    height: 80.97%;
+}
+/*___________________Menu De Navigation__________________*/
+
+nav {
+    position: absolute;
+}
+
+ul {
+    font-family: 'Nunito' ;
+    font-size: 0.875em ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: bottom;
+    padding: 67px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration-line: white ;
+}
+
+
+
+/*___________________Partie Gauche_______________________*/
+
+#TitreSousTitreEtBouton {
     display: flex;
     flex-direction: column;
-    margin-top: 30%;
-    margin-left: 30%;
-  }
+    align-items: flex-end;
+}
 
-  h1 {
-    font-family: 'Poppins' ;
-    color: white ;
-    font-weight: normal;
-    font-size: 75pt;
-    line-height: 1em;
-    margin-bottom: 10px;
-    margin-top: 0%;
-  }
-
-  .MassImpressions {
-    font-family: 'Nunito' ;
-    color: white ;
-    font-size: 15pt ;
-  }
-
-
-
-  .BandeBlanche {
-    height: 7px;
-    width: 68px;
-    background-color: white ;
-
-  }
-
-  /* Bouton Plan */
-  #Bouton {
-    display: flex;
+.boxTitre {
     margin-top: 25%;
-    margin-left: 10%;
+    height: 310px;
+    width: 529px;
+}
+.boxSousTitre {
+    height: 110px;
+    width: 529px;
+    margin-bottom: 30%;
 }
 
-  .carre_bleu{
-    height: 110px;
-    width: 419px;
-    background-color: #BFD9D9 ;
+h1 {
+  font-family: 'Poppins' ;
+  color: white ;
+  font-weight: normal;
+  font-size: 75pt;
+  line-height: 1em;
+}
 
-  }
-  .GetDirections {
-    font-family: 'Nunito' ;
-    text-align: center;
-    color: white ;
-    font-size: 15pt ;
+.MassImpressions {
+  font-family: 'Nunito' ;
+  color: white ;
+  font-size: 15pt ;
+}
 
-  }
+.BandeBlanche {
+  height: 7px;
+  width: 68px;
+  background-color: white ;
+  position: relative;
+  left: 160px;
+  bottom: 25px;
+}
 
-  .carre_blanc{
-    height: 110px;
-    width: 110px;
-    background-color: white ;
+/* Bouton Plan */
 
-  }
+#bouton {
+  display: flex;
+}
 
-/* Partie centrale */
+.carre_bleu_bouton {
+  height: 110px;
+  width: 419px;
+  background-color: #BFD9D9 ;
+}
 
-  .element2 {
-    display: inline-block;
-    position: absolute;
-    z-index: -1;
-    top:0%;
-    left: 40.05%;
-    width: 47.45% ;
-    height: 80.97%;
-  }
+.GetDirections {
+  font-family: 'Nunito' ;
+  text-align: center;
+  color: white ;
+  font-size: 15pt ;
+}
 
-  #conteneurCentral {
+.carre_blanc {
+  height: 110px;
+  width: 110px;
+  background-color: white ;
+  border: 1px solid rgb(119,119,126);
+}
+
+/*___________________Partie Centrale____________________________*/
+
+
+
+.box1 {
+    margin-top: 28%;
+}
+
+.paragraphe1 {
+  padding-left: 18%;
+  padding-right: 18%;
+  font-family: 'Poppins' ;
+  color: rgb(26, 26, 29) ;
+  font-size: 1.5em ;
+  margin-bottom: 8%;
+}
+
+.W {
+  font-size: 3em ;
+  float: left;
+  margin-right: 30px;
+  margin-top: -13px;
+  margin-bottom: -50px;
+}
+#MiniParagraphes {
     display: flex;
-    margin-top: 26%;
-    margin-left: 17.5%;
-    margin-right: 17.5%;
     flex-wrap: wrap;
-  }
-
-  .paragraphe1 {
-    font-family: 'Poppins' ;
-    color: rgb(26, 26, 29) ;
-    font-size: 1.5em ;
-    margin-bottom: 11%;
-  }
-
-  .W {
-    font-size: 3em ;
-    float: left;
-    margin-right: 30px;
-    margin-top: -13px;
-    margin-bottom: -50px;
+    padding-left: 18%;
 }
 
-  .paragraphes2 {
-    font-family: 'Nunito' ;
-    line-height: 27px;
-    color: rgb(119,119,126) ;
-    font-size: 0.8em ;
-    margin-right: 61.7px;
-    margin-bottom: 10%;
-  }
+.paragraphes2 {
+  font-family: 'Nunito' ;
+  line-height: 30px;
+  color: rgb(119,119,126) ;
+  font-size: 0.8em ;
+}
 
 .img_flottantes {
-  float: left;
-  margin-top: 7px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+float: left;
+margin-top: 7px;
+margin-right: 30px;
+margin-bottom: 30px;
 }
 
-/* Partie Gauche */
+.box {
+    width: 320px;
+    height: 100px;
+    margin-bottom: 5%;
+}
+/*___________________Partie Droite______________________________*/
 
-  .element3 {
-    background-color: #BFD9D9 ;
-    display: inline-block;
-    position: absolute;
-    top: 22.54%;
-    right: 0%;
-    z-index: -1;
-    width: 12.5%;
-    height: 37.64%;
-  }
-
-
-
-  /* Menu de Navigation */
-  .nav {
-      position: absolute;
-  }
-
-  ul {
-      font-family: 'Nunito' ;
-      font-size: 0.875em ;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-  }
-
-  li {
-      float: left;
-  }
-
-  li a {
-      display: block;
-      color: white;
-      text-align: bottom;
-      padding: 67px 30px;
-      text-decoration: none;
-  }
-
-  li a:hover {
-      text-decoration-line: white ;
-  }
-
-  .Logo_MiTalent {
-    position: absolute ;
-    right: 44.2%;
-  }
-
-  .Logo_loupe {
-    position: absolute;
-    right : 3% ;
-    padding: 67px 30px;
-  }
+#GrandCarreBleu {
+  background-color: #BFD9D9 ;
+  width: 240px;
+  height: 430px;
+  margin-top: 106%;
 }
 
-/* >768px AND <1024px -> tablettes + iPads paysage + grandes tablettes */
-@media screen and (min-width: 768px) and (max-width:1024px) {
+/*___________________Footer_____________________________________*/
+#Footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ElementFooter1 {
+    background-color: grey;
+    width: 50%;
+    height: 115px;
+    justify-content: center;
+}
+
+#boxLogo {
+    background-color: red;
+    width: 230px;
+    height: 115px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 59.6px;
 
 }
 
-/* >768px -> grandes tablettes + desktop */
-@media screen and (min-width: 768px) {
+.ElementFooter2 {
+    background-color: yellow;
+    font-family: 'Nunito' ;
+    color: rgb(119,119,126) ;
+    font-size: 0.8em ;
+    width: 50%;
+    height: 115px;
 
 }
 
-/* <768px -> smart-phones les plus modernes + iPads portrait */
-@media screen and (max-width: 768px) {
-
+#boxNewsletter {
+    background-color: red;
+    width: 400px;
+    height: 115px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-/* <480px -> smart-phones premières générations */
-@media screen and (max-width: 480px) {
-
+.LogoMail2 {
+    float: right;
+    margin: 10px;
 }
 
-/* <320px -> basses résolutions */
-@media screen and (max-width: 320px) {
-
+.ElementFooter3 {
+    background-color: blue;
+    font-family: 'Nunito' ;
+    line-height: 30px;
+    color: rgb(119,119,126) ;
+    font-size: 0.8em ;
+    width: 50%;
+    height: 115px;
+}
+.ElementFooter4 {
+    background-color: lime;
+    width: 50%;
+    height: 115px;
 }
