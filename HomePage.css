@@ -1,11 +1,11 @@
-@font-face {
-  font-family: "Nunito";
-  src: url("../fonts/nunito-v8-latin-200.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/nunito-v8-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v8-latin-200.woff2") format("woff2"), url("../fonts/nunito-v8-latin-200.woff") format("woff"), url("../fonts/nunito-v8-latin-200.ttf") format("truetype"), url("../fonts/nunito-v8-latin-200.svg#svgFontName") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 200; }
+/*        @font-face {
+      font-family: "Nunito";
+      src: url("../fonts/nunito-v8-latin-200.eot");
+      /* IE9 Compat Modes */
+/*      src: url("../fonts/nunito-v8-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v8-latin-200.woff2") format("woff2"), url("../fonts/nunito-v8-latin-200.woff") format("woff"), url("../fonts/nunito-v8-latin-200.ttf") format("truetype"), url("../fonts/nunito-v8-latin-200.svg#svgFontName") format("svg");
+      /* Legacy iOS */
+/*      font-style: normal;
+      font-weight: 200; }       */
 
 @font-face {
     font-family: 'Poppins';
@@ -39,15 +39,31 @@
       height: 32px;
       right: 44.22%;
       top:2%;
+
     }
 
 .conteneurs_Talents{
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    margin-left: 44px;
-    top:1080px;
+    justify-content: center;
+    margin-top: 5%;
 }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 900px;
+    justify-content: center;
+
+}
+
+li{
+    font-size: 1em;
+    margin-left: 3%;
+}
+
 
 
 /*_______________GRANDE TAILLE D'ECRAN_______________*/
