@@ -22,32 +22,42 @@
 
 /*___________________Menu De Navigation__________________*/
 
-nav {
-    position: absolute;
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: yellow;
+
 }
 
-ul {
+.topnav a {
+    float: left;
+    color: blue;
+    text-align: center;
     font-family: 'Nunito' ;
     font-size: 0.875em ;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    color: white;
-    text-align: bottom;
-    padding: 67px 30px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    text-decoration-line: white ;
+.topnav a:hover {
+    text-decoration: underline #BFD9D9;
+
+}
+
+.topnav a.active {
+    text-decoration: underline white;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
 }
 
 /*___________________L'essentiel de la page - Mise en page générale__________*/
@@ -62,7 +72,7 @@ li a:hover {
     height: 80.97%;
     background-image: url("images_contact_us/single1.jpg");
     -webkit-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .ConteneurCentral {
