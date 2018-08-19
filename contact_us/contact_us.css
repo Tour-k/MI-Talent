@@ -126,11 +126,20 @@ h1 {
   height: 110px;
   width: 419px;
   background-color: #BFD9D9 ;
+  display: flex;
+  align-items: center;
+}
+
+#carre_bleu_bouton {
+    height: 110px;
+    width: 419px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .GetDirections {
   font-family: 'Nunito' ;
-  text-align: center;
   color: white ;
   font-size: 15pt ;
 }
@@ -140,6 +149,14 @@ h1 {
   width: 110px;
   background-color: white ;
   border: 1px solid rgb(119,119,126);
+}
+
+#carre_blanc {
+    height: 110px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*___________________Partie Centrale____________________________*/
