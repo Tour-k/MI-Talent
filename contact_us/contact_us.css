@@ -20,28 +20,6 @@
 
 
 
-
-
-#ConteneurPrincipal {
-   display: flex;
-   flex-wrap: wrap;
-}
-
-.ConteneurGauche {
-    width:40.05%;
-    height: 80.97%;
-    background-image: url("images_contact_us/single1.jpg");
-}
-
-.ConteneurCentral {
-    width:47.45%;
-    height: 80.97%;
-}
-
-.ConteneurDroit {
-    width:12.50%;
-    height: 80.97%;
-}
 /*___________________Menu De Navigation__________________*/
 
 nav {
@@ -72,7 +50,28 @@ li a:hover {
     text-decoration-line: white ;
 }
 
+/*___________________L'essentiel de la page - Mise en page générale__________*/
 
+#ConteneurPrincipal {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.ConteneurGauche {
+    width:40.05%;
+    height: 80.97%;
+    background-image: url("images_contact_us/single1.jpg");
+}
+
+.ConteneurCentral {
+    width:47.45%;
+    height: 80.97%;
+}
+
+.ConteneurDroit {
+    width:12.50%;
+    height: 80.97%;
+}
 
 /*___________________Partie Gauche_______________________*/
 
@@ -122,12 +121,16 @@ h1 {
   display: flex;
 }
 
+#bouton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .carre_bleu_bouton {
   height: 110px;
   width: 419px;
   background-color: #BFD9D9 ;
   display: flex;
   align-items: center;
+  border: 1px solid #BFD9D9;
 }
 
 #carre_bleu_bouton {
@@ -148,7 +151,7 @@ h1 {
   height: 110px;
   width: 110px;
   background-color: white ;
-  border: 1px solid rgb(119,119,126);
+  border: 1px solid rgb(223,223,223);
 }
 
 #carre_blanc {
