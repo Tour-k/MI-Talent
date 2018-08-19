@@ -61,6 +61,8 @@ li a:hover {
     width:40.05%;
     height: 80.97%;
     background-image: url("images_contact_us/single1.jpg");
+    -webkit-background-size: cover;
+    background-size: cover; 
 }
 
 .ConteneurCentral {
