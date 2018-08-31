@@ -56,14 +56,31 @@ ul{
     flex-wrap: wrap;
     margin-top: 900px;
     justify-content: center;
-
 }
 
 li{
     font-size: 1em;
     margin-left: 3%;
 }
+.Conteneur_Boutton_Explore{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
 
+.Boutton_Explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 50px;
+    background-color: #BFD9D9;
+    border-radius:45px 45px;
+}
+
+#Btn_Explore_More{
+    color: white;
+}
 
 
 /*_______________GRANDE TAILLE D'ECRAN_______________*/
